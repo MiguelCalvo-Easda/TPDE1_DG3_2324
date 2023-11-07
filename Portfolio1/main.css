@@ -1,0 +1,43 @@
+*{ margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;}
+
+header {
+    margin-top: 3%;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(219, 65, 96);
+}
+
+section {
+    position: relative; /*Para centrar*/
+    margin: auto;/*Para centrar*/
+    margin-top: 2em;
+    text-align: center;
+}
+
+img {
+    margin-top: 1%;
+    width: 25%; 
+    filter: saturate(0);
+}
+
+a:hover img {
+    filter: saturate(1);
+}
+
+footer {
+    text-align: center;
+    margin-top: 3%;
+    font-size: 120%;
+    margin-bottom: 4%;
+}
+
+a:link{
+    color: rgb(219, 65, 96) ;
+}
+
+a:visited{
+    color: darkorange;
+}
