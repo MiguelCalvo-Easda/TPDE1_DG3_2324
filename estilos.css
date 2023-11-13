@@ -10,25 +10,34 @@
 
 header{
     color:rgb(33, 167, 100);
-    text-align: center;
-    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
     letter-spacing: 3px;
+    margin: 2%;
+    margin-left: 25%;
+
 }
 
+#trabajos{ /*Contenedor flex*/
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items:start;
+    width: 50%;
+    margin-left: 25%;
+    font-size: 150%;
+  }
 
-a{
-    display: block;
-    text-align: left;
-    margin: 10%;
-    margin-left: 24%;
-    margin-right: 42%;
-    padding: 2%;
-    border-style: solid;
-    border-radius: 10px;
-    border-width: 2px;
+
+li{ /*Elementos flex*/
+    list-style: none;
+    width: 80%;
     border-color: black;
-    background-color:rgb(218, 217, 216)
+    border-style: solid;
+    padding: 8%;
+    margin: 1%;
 }
+
 
 a:link{ color:chartreuse;}
 
